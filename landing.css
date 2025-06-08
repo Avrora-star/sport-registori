@@ -9,19 +9,19 @@
 
 .container {
     max-width: 1000px;
-    margin:auto;
+    margin: auto;
 }
 
 .section-title {
     font-size: 30px;
     font-weight: 700;
-    color:#65daff;
+    color: #65daff;
 }
 
 .section-text {
     font-size: 20px;
     font-weight: 300;
-    color:white;
+    color: white;
     line-height: 35px;
 }
 
@@ -36,7 +36,7 @@ body {
 }
 
 .nav-item {
-    color:white;
+    color: white;
     text-decoration: none;
     font-size: 16px;
     font-weight: 700;
@@ -45,11 +45,11 @@ body {
 }
 
 nav {
-    float:right;
+    float: right;
 }
 
 .nav-item:hover {
-    color:#65daff;
+    color: #65daff;
     text-shadow: 0 0 5px #65daff;
 }
 
@@ -58,7 +58,7 @@ header {
     width: 100%;
     height: 80px;
     line-height: 80px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.7);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
     z-index: 100;
     position: fixed;
 }
@@ -68,35 +68,35 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    background-size:cover;
+    background-size: cover;
     background-image: url(img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg);
 }
 
 .header-content {
     position: absolute;
-    top:50%;
-    left:0;
+    top: 50%;
+    left: 0;
     transform: translateY(-50%);
-    padding-left: 30px  ;
+    padding-left: 30px;
 }
 
 .header-title {
     font-size: 90px;
     margin-bottom: 30px;
     font-weight: 900;
-    color:#4e4e4e;
+    color: #4e4e4e;
 }
 
 .header-text {
-    font-size: 45px;   
-    color:#4e4e4e;
-    margin-bottom: 30px; 
+    font-size: 45px;
+    color: #4e4e4e;
+    margin-bottom: 30px;
 }
 
 .header-btn {
-    background:linear-gradient(45deg,#65daff,#70ffcb);
+    background: linear-gradient(45deg, #65daff, #70ffcb);
     text-decoration: none;
-    color:white;
+    color: white;
     padding: 15px 40px;
     display: block;
     width: fit-content;
@@ -108,5 +108,11 @@ header {
 }
 
 .header-btn:active {
-    background: linear-gradient(45deg,#347083,#388065);
+    background: linear-gradient(45deg, #347083, #388065);
+}
+
+.about-card {
+    background-color: #388065;
+    width: 24%;
+    display: inline-block;
 }
