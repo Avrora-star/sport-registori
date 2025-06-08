@@ -77,4 +77,36 @@ header {
     top:50%;
     left:0;
     transform: translateY(-50%);
+    padding-left: 30px  ;
+}
+
+.header-title {
+    font-size: 90px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    color:#4e4e4e;
+}
+
+.header-text {
+    font-size: 45px;   
+    color:#4e4e4e;
+    margin-bottom: 30px; 
+}
+
+.header-btn {
+    background:linear-gradient(45deg,#65daff,#70ffcb);
+    text-decoration: none;
+    color:white;
+    padding: 15px 40px;
+    display: block;
+    width: fit-content;
+    transition: 0.5s;
+}
+
+.header-btn:hover {
+    transform: scale(1.1);
+}
+
+.header-btn:active {
+    background: linear-gradient(45deg,#347083,#388065);
 }
