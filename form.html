@@ -1,41 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="form.css">
     <title>Заявка на вступление</title>
 </head>
+
 <body>
     <form>
         <div class="form-head">
             <a href="index.html" class="btn-back"><</a>
-            <h3 class="form-title">Заявка на вступление</h3>
+                    <h3 class="form-title">Заявка на вступление</h3>
         </div>
         <div class="form-body">
-            <input type="text" class="name" placeholder="Имя">
-            <input type="text" class="surname" placeholder="Фамилия">
+            <fieldset>
+                <legend>Ваш никнейм в реальной жизни :)</legend>
+                 <input type="text" class="name" placeholder="Имя">
+                <input type="text" class="surname" placeholder="Фамилия">
+            </fieldset>
+           
+            <div class="input-wrapper">
+                <p class="gender">Ваш пол</p>
+            </div>
             
-            <p class="gender">Ваш пол</p>
-            <input type="radio" class="male" name="gender">
-            <label>M</label>
+            <div class="input-wrapper">
+                <input type="radio" class="M" name="gender">
+                <label class="M">M</label>
+                <input type="radio" class="F" name="gender">
+                <label class="F">Ж</label>
+            </div>
 
-            <input type="radio" class="female" name="gender">
-            <label>Ж</label>
+            <div class="input-wrapper">
+                <input type="checkbox" class="age">
+                <label>Мне есть 18</label>
+            </div>
 
-            <input type="checkbox" class="age">
-            <label>Мне есть 18</label>
-            
-            <label>Ваша дисциплина</label>
-            <select name="" id="" class="game">
-                <option value="CS:GO">CS:GO</option>
-                <option value="Dota 2">Dota 2</option>
-                <option value="Apex">Apex legend</option>
-            </select>
+            <div class="input-wrapper">
+                <label>Ваша дисциплина</label>
+                <select name="" id="" class="game">
+                    <option value="CS:GO">CS:GO</option>
+                    <option value="Dota 2">Dota 2</option>
+                    <option value="Apex">Apex legend</option>
+                </select>
+            </div>
 
             <textarea name="" id="" class="coment" placeholder="Дополнительная информация"></textarea>
             <input type="submit" class="submit" value="Отправить заявку">
         </div>
     </form>
 </body>
+
 </html>
