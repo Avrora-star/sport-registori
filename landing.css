@@ -16,7 +16,7 @@
     font-size: 30px;
     font-weight: 700;
     color: #65daff;
-    margin-bottom:50px;
+    margin-bottom: 50px;
 }
 
 .section-text {
@@ -117,7 +117,7 @@ header {
     text-align: center;
 }
 
-.about-card {    
+.about-card {
     width: 24%;
     display: inline-block;
     height: 200px;
@@ -133,7 +133,7 @@ header {
 
 .about-card-title {
     font-size: 30px;
-    color:#65daff;
+    color: #65daff;
 }
 
 .games-container {
@@ -147,11 +147,11 @@ header {
     background-image: url(img/csgo.jpg);
     width: 49%;
     height: 350px;
-    background-position:left ;
+    background-position: left;
     background-repeat: no-repeat;
-    background-size:cover;
-      display: inline-block;
-      vertical-align: top;
+    background-size: cover;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .games-card-content {
@@ -171,8 +171,82 @@ header {
 .game-divider {
     width: 130px;
     background-color: #70ffcb;
-    border:none;
+    border: none;
     height: 3px;
-    margin:20px 0;
+    margin: 20px 0;
 }
 
+.img1 {
+    background-image: url(img/csgo.jpg);
+}
+
+.img2 {
+    background-image: url(img/dota2.jpg);
+}
+
+.img3 {
+    background-image: url(img/apex.jpg);
+}
+
+.ggsel {
+    color: #65daff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 40px;
+    word-spacing: 5px;
+}
+
+.fanta {
+    color: aliceblue;
+    text-align: center;
+    word-spacing: 2px;
+    margin-top: 50px;
+}
+
+.ggcraft {
+    width: 1000px;
+    height: 300px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+
+}
+
+.vc {
+    width: 800px;
+    height: 150px;
+    background-color: #65daff;
+    margin-top: 50px;
+    position: absolute;
+    left: 530px;
+
+}
+
+.hrg {
+    width: 400px;
+    margin-top: 20px;
+    background-color: white;
+    height: 3px;
+    position: absolute;
+    left: 720px;
+}
+
+.ggg {
+    color: white;
+    text-align: left;
+    position: relative;
+    top: 40px;
+    left: 100px;
+    font-weight: 400;
+    height: 60px;
+    width: 200px;
+    font-size: 40px;
+}
+
+.sss {
+    text-decoration: none;
+    position: relative;
+    left: 600px;
+    background-color: black;
+    color: white;
+    padding: 10px 50px;
+}
